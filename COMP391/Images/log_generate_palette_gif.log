@@ -1,0 +1,396 @@
+ffmpeg version 4.3.2-2021-02-02-full_build-www.gyan.dev Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 10.2.0 (Rev6, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-libsnappy --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libdav1d --enable-libzvbi --enable-librav1e --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Waleed/AppData/Local/Temp/KritaFFmpegProgress.cNIezq'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/Waleed/Desktop/COMP391/Images/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/Waleed/Desktop/COMP391/Images/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Waleed/AppData/Local/Temp/KritaFFmpegProgress.cNIezq.
+[file @ 00000259e315da00] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/Waleed/Desktop/COMP391/Images/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/Waleed/Desktop/COMP391/Images/frame%04d.png.
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0000.png' for reading
+[file @ 00000259e31a1c40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a9e00] Statistics: 3415 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0001.png' for reading
+[file @ 00000259e31a1d00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a1e80] Statistics: 3391 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0002.png' for reading
+[file @ 00000259e31a1dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a2e80] Statistics: 3639 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0003.png' for reading
+[file @ 00000259e31a1dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3040] Statistics: 3647 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0004.png' for reading
+[file @ 00000259e31a1dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3200] Statistics: 3681 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0005.png' for reading
+[file @ 00000259e31a9d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3200] Statistics: 3681 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0006.png' for reading
+[file @ 00000259e31a9d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a33c0] Statistics: 4012 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0007.png' for reading
+[file @ 00000259e31a33c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3580] Statistics: 3998 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0008.png' for reading
+[file @ 00000259e31a3580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3740] Statistics: 4010 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0009.png' for reading
+[file @ 00000259e31a3740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3840] Statistics: 4010 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0010.png' for reading
+[file @ 00000259e31a3800] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3900] Statistics: 3261 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0011.png' for reading
+[file @ 00000259e31a38c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3980] Statistics: 3265 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0012.png' for reading
+[file @ 00000259e31a38c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3980] Statistics: 3490 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0013.png' for reading
+[file @ 00000259e31a38c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a3980] Statistics: 3490 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0014.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31ceec0] Statistics: 3616 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0015.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31ceec0] Statistics: 3616 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0016.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31ceec0] Statistics: 3702 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0017.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31ceec0] Statistics: 3702 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0018.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31ceec0] Statistics: 4634 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0019.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31ceec0] Statistics: 4619 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0020.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31ceec0] Statistics: 3413 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0021.png' for reading
+[file @ 00000259e31bccc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 3430 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0022.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 3696 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0023.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 3702 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0024.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 3826 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0025.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 3877 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0026.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 4028 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0027.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 928 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0028.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 1072 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0029.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 1137 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0030.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 1167 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0031.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 1211 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0032.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 1259 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0033.png' for reading
+[file @ 00000259e31cedc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31bccc0] Statistics: 1298 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0034.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1329 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0035.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1358 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0036.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1387 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0037.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1413 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0038.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1441 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0039.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1441 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0040.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1473 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0041.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1535 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0042.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1618 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0043.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1697 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0044.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1765 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0045.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1804 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0046.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1855 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0047.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1886 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0048.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1925 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0049.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1926 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0050.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1914 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0051.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1846 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0052.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1822 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0053.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1761 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0054.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1730 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0055.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1671 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0056.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1640 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0057.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1599 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0058.png' for reading
+[file @ 00000259e31e6f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1549 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0059.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1549 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0060.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1488 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0061.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1415 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0062.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1354 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0063.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1317 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0064.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1296 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0065.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1245 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0066.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1205 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0067.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1168 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0068.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1127 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0069.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1049 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0070.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 952 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0071.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 952 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0072.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1073 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0073.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1120 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0074.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1109 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0075.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1105 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0076.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1080 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0077.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1123 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0078.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1151 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0079.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1145 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0080.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1149 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0081.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1132 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0082.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1121 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0083.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1123 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0084.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1110 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0085.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1162 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0086.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1192 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0087.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1168 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0088.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1197 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0089.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1213 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0090.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1213 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0091.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1213 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0092.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1285 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0093.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1278 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0094.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1258 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0095.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1235 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0096.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1235 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0097.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1235 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0098.png' for reading
+[file @ 00000259e31cd000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1235 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0099.png' for reading
+[file @ 00000259e31eef40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1235 bytes read, 0 seeks
+[image2 @ 00000259e319e580] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/frame0100.png' for reading
+[file @ 00000259e31eef40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31cedc0] Statistics: 1235 bytes read, 0 seeks
+Input #0, image2, from 'C:/Users/Waleed/Desktop/COMP391/Images/frame%04d.png':
+  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
+    Stream #0:0, 101, 1/25: Video: png, 1 reference frame, rgba(pc), 80x120 [SAR 11811:11811 DAR 2:3], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/Waleed/Desktop/COMP391/Images/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/Waleed/Desktop/COMP391/Images/palette.png.
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 12 times
+[graph 0 input from stream 0:0 @ 00000259e321ef00] Setting 'video_size' to value '80x120'
+[graph 0 input from stream 0:0 @ 00000259e321ef00] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000259e321ef00] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 00000259e321ef00] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 00000259e321ef00] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 00000259e321ef00] w:80 h:120 pixfmt:rgba tb:1/24 fr:24/1 sar:11811/11811
+[format @ 00000259e31a3500] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 00000259e31a2e00] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 00000259e31a2e00] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 00000259e1907580] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 00000259e35870c0] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 00000259e35870c0] w:iw h:ih flags:'bicubic' interl:0
+[format @ 00000259e31a3500] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 00000259e31e7c40] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 00000259e35870c0] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 00000259e368fb40] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 00000259e31a2e00] w:80 h:120 fmt:rgba sar:11811/11811 -> w:80 h:120 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 00000259e36a3f80] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 00000259e35870c0] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+Output #0, image2, to 'C:/Users/Waleed/Desktop/COMP391/Images/palette.png':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/24: Video: png, 1 reference frame, rgba, 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 24 fps, 24 tbn, 24 tbc
+    Metadata:
+      encoder         : Lavc58.91.100 png
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 100 times
+[Parsed_palettegen_0 @ 00000259e1907580] 86(+1) colors generated out of 86 colors; ratio=1.000000
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 00000259e31a3180] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 00000259e31a0800] Opening 'C:/Users/Waleed/Desktop/COMP391/Images/palette.png' for writing
+[file @ 00000259e35f5700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000259e31a1e40] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=3.11x    
+[AVIOContext @ 00000259e319e440] Statistics: 0 seeks, 1 writeouts
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (C:/Users/Waleed/Desktop/COMP391/Images/frame%04d.png):
+  Input stream #0:0 (video): 101 packets read (200555 bytes); 101 frames decoded; 
+  Total: 101 packets (200555 bytes) demuxed
+Output file #0 (C:/Users/Waleed/Desktop/COMP391/Images/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (407 bytes); 
+  Total: 1 packets (407 bytes) muxed
+101 frames successfully decoded, 0 decoding errors
